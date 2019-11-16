@@ -14,9 +14,9 @@ column=0
     if directors_database[row]="Spielberg"
       while column<directors_database[row].length
         new=directors_database[row][column]
+        column += 1
       end
     end
-    column += 1
   end
   row += 1
   pp new
